@@ -7,7 +7,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 import POM_Config.Configuration;
-
+//LoginPage Class
 public class LoginPage
 {
    WebDriver driver;
