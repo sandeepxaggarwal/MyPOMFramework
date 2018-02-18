@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="292" started-at="2017-07-28T04:33:13Z" finished-at="2017-07-28T04:33:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="292" started-at="2017-07-28T04:33:13Z" finished-at="2017-07-28T04:33:13Z">
+      <class name="POM_TestCases.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:POM_TestCases.LoginTest@4659191b]" name="init" is-config="true" duration-ms="12299" started-at="2017-07-28T10:03:00Z" finished-at="2017-07-28T10:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:POM_TestCases.LoginTest@4659191b]" name="isSkip" is-config="true" duration-ms="9" started-at="2017-07-28T10:03:13Z" finished-at="2017-07-28T10:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:POM_TestCases.LoginTest@4659191b]" name="doLogin" duration-ms="264" started-at="2017-07-28T10:03:13Z" data-provider="getData" finished-at="2017-07-28T10:03:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:POM_TestCases.LoginTest@4659191b]" name="afterTest" is-config="true" duration-ms="4" started-at="2017-07-28T10:03:13Z" finished-at="2017-07-28T10:03:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLogin status=SUCCESS method=LoginTest.doLogin(java.lang.String, java.lang.String)[pri:0, instance:POM_TestCases.LoginTest@4659191b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:POM_TestCases.LoginTest@4659191b]" name="close" is-config="true" duration-ms="412" started-at="2017-07-28T10:03:13Z" finished-at="2017-07-28T10:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- POM_TestCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
